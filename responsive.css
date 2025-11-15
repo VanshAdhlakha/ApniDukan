@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: none; /* hide links on mobile */
+        flex-direction: column;
+        gap: 15px;
+        background-color: #1a1a2e;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 20%;
+        padding: 15px 0;
+    }
+
+    #menu-toggle:checked + .hamburger + .nav-links {
+        display: flex; /* show links when hamburger clicked */
+    }
+
+    .hamburger {
+        display: block;
+        color: #f0f0f0;
+    }
+}
+
+

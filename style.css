@@ -31,7 +31,7 @@
     color: white;
     font-size: 16px;
     /* flex-direction: column; */
-    transition: color 0.5s;
+    transition: color 0.3s;
 
 }
 .nav-links li{
@@ -135,7 +135,7 @@
 }
 .card:hover{
     /* transform: translateY(-50px); */
-    transform: scale(2) translateY(-15px);
+    transform: translateY(-15px);
 }
 footer{
     background-color: #1a1a2e;

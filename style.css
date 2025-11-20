@@ -102,12 +102,6 @@
     margin-bottom: 40px;
     font-size: 36px;
 }
-.categories-cards{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 .category-cards{
     display: flex;
     justify-content: space-around;

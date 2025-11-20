@@ -27,10 +27,6 @@
         text-align: center;
     }
 
-    .hero-container img{
-        margin-top: 30px;
-    }
-
     .category-cards{
         flex-direction: column;
         gap: 20px;

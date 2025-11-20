@@ -6,11 +6,29 @@
 .About-navbar{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+    padding: 5px;
 
 }
 .section-about{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: red;
+}
+.About-card{
+     flex: 1 1 200px;
+     padding: 40px 20px;
+     border-radius: 15px;
+     text-align: center;
+     cursor: pointer;
+     background-color: #1a1a2e;
+
+
+
+}
+.About-card:hover{
+    background-color: #1a1a3e;
+    transform: scaleY(1.1);
 }

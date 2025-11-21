@@ -148,7 +148,8 @@ footer{
   max-width: 150px;
   flex: 1 1 120px;
   background-color: #1a1a2e;
-  margin-bottom: 18px;
+  margin: 18px;
+  border-radius: 12px;
 }
 .item-card:hover{
     transform: scale(1.1);

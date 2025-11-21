@@ -151,6 +151,7 @@ footer{
   background-color: #1a1a2e;
   margin: 18px;
   border-radius: 12px;
+  transition: all 0.3s ease-in;
 }
 .item-card:hover{
     transform: scale(1.1);

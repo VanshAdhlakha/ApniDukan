@@ -26,3 +26,17 @@ if (m && p) {
     });
 }
 
+let magicBox = document.querySelector('#magic-box');
+
+if (magicBox) {
+
+    magicBox.addEventListener('mouseover', function(){
+        magicBox.style.backgroundColor = '#e63946'; 
+        magicBox.style.transition = "0.3s";        
+    });
+
+
+    magicBox.addEventListener('mouseout', function(){
+        magicBox.style.backgroundColor = '#2c3e3c'; 
+    });
+}

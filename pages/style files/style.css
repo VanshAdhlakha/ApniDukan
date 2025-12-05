@@ -5,6 +5,9 @@
     font-family: Arial, sans-serif;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     justify-content: space-between;

@@ -1,34 +1,86 @@
 *{
     margin:0;
-    background-color: hsl(180, 21%, 15%);
+    /* background-color: hsl(180, 21%, 15%); */
     color: white;;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(180, 21%, 15%);
+    color: white;
+    font-family: sans-serif;
+    margin: 0; /* Important: remove default body margin */
+}
+
 .About-navbar{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    padding: 5px;
+    padding: 30px;
 
 }
 .section-about{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
     color: red;
+    margin: 0 auto; 
+
+
 }
 .About-card{
-     flex: 1 1 200px;
+     /* flex: 1 1 200px; */
+     height: 150px;
+     display: flex;
+     width: 250px;
      padding: 40px 20px;
      border-radius: 15px;
      text-align: center;
      cursor: pointer;
      background-color: #1a1a2e;
+     flex-direction: column;
+     justify-content: center;    
+     align-items: center;
 
 
 
 }
 .About-card:hover{
     background-color: #1a1a3e;
-    transform: scaleY(1.1);
+    transform: scaleY(1.05);
+}
+/* #center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+.info-box {
+    background-color: #1a1a2e; /* The color you asked for */
+    color: #e0e0e0;            /* Light grey text for good contrast */
+    
+    border-radius: 20px;       /* Rounded corners */
+    padding: 40px;             /* Space inside the box */
+    
+    /* Layout & Spacing */
+    margin: 50px auto;         /* 50px gap from top, 'auto' centers it left/right */
+    max-width: 800px;          /* Prevents the line length from getting too long to read */
+    text-align: center;        /* Centers the text */
+    line-height: 1.8;          /* Makes text easier to read */
+    
+    /* Optional: A subtle shadow to separate it from the background */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.info-box h2 {
+    color: white;
+    margin-bottom: 20px;       /* Space between title and paragraph */
+    font-size: 2rem;
 }

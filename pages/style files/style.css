@@ -5,9 +5,6 @@
     font-family: Arial, sans-serif;
 
 }
-html {
-    scroll-behavior: smooth;
-}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -133,7 +130,7 @@ footer{
 }
 
 
-/* style for photos */
+
 .featured-items .item-cards {
   display: flex;
   flex-wrap: wrap;

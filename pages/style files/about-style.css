@@ -1,6 +1,6 @@
 *{
     margin:0;
-    /* background-color: hsl(180, 21%, 15%); */
+
     color: white;;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     background-color: hsl(180, 21%, 15%);
     color: white;
     font-family: sans-serif;
-    margin: 0; /* Important: remove default body margin */
+    margin: 0; 
 }
 
 .About-navbar{
@@ -63,24 +63,23 @@ body {
 
 
 .info-box {
-    background-color: #1a1a2e; /* The color you asked for */
-    color: #e0e0e0;            /* Light grey text for good contrast */
+    background-color: #1a1a2e; 
+    color: #e0e0e0;            
     
-    border-radius: 20px;       /* Rounded corners */
-    padding: 40px;             /* Space inside the box */
+    border-radius: 20px;       
+    padding: 40px;             
     
-    /* Layout & Spacing */
-    margin: 50px auto;         /* 50px gap from top, 'auto' centers it left/right */
-    max-width: 800px;          /* Prevents the line length from getting too long to read */
-    text-align: center;        /* Centers the text */
-    line-height: 1.8;          /* Makes text easier to read */
+
+    margin: 50px auto;         
+    max-width: 800px;         
+    text-align: center;        
+    line-height: 1.8;          
     
-    /* Optional: A subtle shadow to separate it from the background */
+
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .info-box h2 {
     color: white;
-    margin-bottom: 20px;       /* Space between title and paragraph */
-    font-size: 2rem;
+    margin-bottom: 20px;      
 }

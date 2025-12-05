@@ -3,25 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us - Apni Dukan</title>
+    
+    <!-- 1. Link the Main Style (For Navbar) -->
+    <link rel="stylesheet" href="./style files/style.css">
+    
+    <!-- 2. Link the About Page Style -->
     <link rel="stylesheet" href="./style files/about-style.css">
-    <!-- <link rel="stylesheet" href="responsive.css"> -->
 </head>
-
 <body>
+
+    <!-- MAIN NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">Apni Dukan</div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li> 
+            <li><a href="index.html#cate">Categories</a></li>
+            <li><a href="about.html" style="color: #3a5a40;">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAGE TITLE -->
     <nav class="About-navbar">
         <h1>About Us</h1>
     </nav>
+
+    <!-- CARDS SECTION -->
     <div id="center">
         <section class="section-about">
-            <div class="About-card">Secure payment</div>
-            <div class="About-card">Trusted Payment</div>
-            <div class="About-card">Help Center</div>
-            <div class="About-card">Shop On The Go</div>
+            <div class="About-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Secure payment</h3>
+            </div>
+            <div class="About-card">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>Trusted Payment</h3>
+            </div>
+            <div class="About-card">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Help Center</h3>
+            </div>
+            <div class="About-card">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Shop On The Go</h3>
+            </div>
         </section>
-
     </div>
-    </section>
+
 
     <div class="info-box">
         <h2>Welcome to ApniDukan</h2>
@@ -33,6 +64,5 @@
         </p>
     </div>
 
-</body>
 </body>
 </html>

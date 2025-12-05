@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apni Dukan - Shop</title>
     
-    <link rel="stylesheet" href="./style.css">
-    
-    <link rel="stylesheet" href="shop-style.css">
-    
+    <link rel="stylesheet" href="./style files/style.css">
+    <link rel="stylesheet" href="./style files/shop-style.css">
     <link rel="stylesheet" href="./style files/responsive.css">
 </head>
 <body>
@@ -25,12 +23,12 @@
         </ul>
     </nav>
 
-    <section class="categories" style="padding-top: 120px; background-color: #1f2f2f;">
+    <section class="banner">
         <h2>All Products</h2>
-        <p style="color: #ccc; padding-bottom: 20px;">Browse our exclusive collection.</p>
+        <p>Browse our exclusive collection.</p>
     </section>
 
-    <section class="featured-items" style="background-color: #1f2f2f;">
+    <section class="products">
         <div class="item-cards">
             <div class="item-card">
                 <img src="photos/photos.avif" alt="Product">
@@ -51,19 +49,20 @@
         </div>
     </section>
 
-    <section style="background-color: #1a1a2e; padding: 60px 20px; text-align: center; color: white; border-top: 1px solid #333; margin-top: 40px;">
+    <section class="newsletter">
         <h3>Join Our Newsletter</h3>
-        <p style="margin-bottom: 20px; color: #aaa;">Get updates on new products and sales.</p>
+        <p>Get updates on new products and sales.</p>
         
-        <input type="email" id="email" placeholder="Enter your email" style="padding: 12px; border-radius: 5px; border: none; width: 250px;">
-        <p id="emailerror" style="color: red; margin-top: 10px; height: 20px; font-weight: bold;"></p>
+        <input type="email" id="email-box" placeholder="Enter your email">
+        <p id="error-msg" style="color: red;"></p>
     </section>
 
     <footer>
         <p> 2025 Apni Dukan. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Path matches your screenshot folder structure -->
+    <script src="./JavaScript_files/script.js"></script>
 
 </body>
 </html>

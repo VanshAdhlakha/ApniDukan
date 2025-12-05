@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apni Dukan</title>
+    <title>Apni Dukan - Home</title>
     <link rel="stylesheet" href="./style files/style.css">
     <link rel="stylesheet" href="./style files/responsive.css">
 </head>
@@ -14,8 +14,8 @@
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">&#9776;</label>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li> 
             <li><a href="#cate">Categories</a></li>
             <li><a href="about.html">About Us</a></li>
         </ul>
@@ -32,7 +32,7 @@
     <section class="categories" id="cate">
         <h2>Categories</h2>
         <div class="category-cards">
-            <div class="card">Electronics</div>
+            <div class="card" id="magic-box">Electronics</div>
             <div class="card">Clothing</div>
             <div class="card">Home & Kitchen</div>
             <div class="card">Books</div>
@@ -42,37 +42,51 @@
     <section class="featured-items">
         <h2>Featured Accessories</h2>
         <div class="item-cards">
-          <!-- <div class="item-card">
-            <img src="photos/Carbon-Black-Stria-Laptop-Sleeve-8.avif" alt="laptop sleeve oragne">
-            <p>macbook sleeve black</p>
-          </div> -->
-          <div class="item-card">
+          
+          <div class="item-card" style="padding-bottom: 15px;">
             <img src="photos/Crimson-Grey-Leather-MagSafe-Card-Wallet-2n.avif" alt="Clear MagSafe iPhone ">
             <p>MagSafe Clear Case</p>
+            
+            <div style="margin-top: 10px; color: white; text-align: center;">
+                <button class="minus" style="padding: 2px 8px; cursor: pointer;">-</button>
+                <span class="qty" style="margin: 0 5px;">1</span>
+                <button class="plus" style="padding: 2px 8px; cursor: pointer;">+</button>
+                <p style="margin-top: 5px;">Total: ₹<span class="total">500</span></p>
+            </div>
           </div>
-          <div class="item-card">
+
+          <div class="item-card" style="padding-bottom: 15px;">
             <img src="photos/Indigo-Stack-Phone-Case-iPhone-17-Pro-Mmax-2n.avif" alt="Cravings Before Savings Case">
             <p>Savings Case</p>
+            
+            <div style="margin-top: 10px; color: white; text-align: center;">
+                <button class="minus" style="padding: 2px 8px; cursor: pointer;">-</button>
+                <span class="qty" style="margin: 0 5px;">1</span>
+                <button class="plus" style="padding: 2px 8px; cursor: pointer;">+</button>
+                <p style="margin-top: 5px;">Total: ₹<span class="total">500</span></p>
+            </div>
           </div>
-          <div class="item-card">
-            <img src="photos/photos.avif" alt="iphone 17pro case blue">
-            <p>iphone case</p>
-          </div>
-          <!-- <div class="item-card">
-            <img src="photos/Space-Blue-Stria-Laptop-Sleeve-8.avif" alt="case oragne">
-            <p>sleeve for macbook</p>
-          </div> -->
-          <div class="item-card">
+
+          <div class="item-card" style="padding-bottom: 15px;">
             <img src="photos/Titanium-DailyObjects-Loop-MagSafe-Qi2-Battery-Pack-10000-2.avif" alt="Silicone sleeve">
             <p>magsaafe</p>
+
+            <div style="margin-top: 10px; color: white; text-align: center;">
+                <button class="minus" style="padding: 2px 8px; cursor: pointer;">-</button>
+                <span class="qty" style="margin: 0 5px;">1</span>
+                <button class="plus" style="padding: 2px 8px; cursor: pointer;">+</button>
+                <p style="margin-top: 5px;">Total: ₹<span class="total">500</span></p>
+            </div>
           </div>
+
         </div>
     </section>
-
 
     <footer>
         <p> 2025 Apni Dukan. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

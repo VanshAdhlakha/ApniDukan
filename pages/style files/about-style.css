@@ -116,6 +116,7 @@ body {
     }
     
     .info-box h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        /* color: hsl(180, 20%, 15%); */
     }
 }

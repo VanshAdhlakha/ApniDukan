@@ -69,6 +69,10 @@
     transition: 0.3s;
 }
 
+/* .newsletter input[type="text"]:focus {
+    background-color: #34495e;
+    border-color: #3a5a40;
+} */
 .newsletter input[type="email"]:focus {
     background-color: #34495e;
     border-color: #3a5a40;

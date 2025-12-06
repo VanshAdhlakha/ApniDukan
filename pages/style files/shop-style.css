@@ -85,3 +85,38 @@
     font-size: 0.9rem;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .banner {
+        padding: 40px 15px;
+    }
+
+    .banner h2 {
+        font-size: 2.2rem; 
+    }
+
+    .banner p {
+        font-size: 2rem;
+    }
+
+
+    .products {
+        padding: 30px 10px;
+    }
+
+
+    .newsletter {
+        padding: 40px 15px;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100%; 
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+    
+    .newsletter h3 {
+        font-size: 1.5rem;
+    }
+}

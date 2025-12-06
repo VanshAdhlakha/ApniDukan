@@ -43,30 +43,38 @@
 
 
 
-let m = document.getElementById('minus');
-let p = document.getElementById('plus');
 
-if (m && p) {
-    let q = document.getElementById('qty');
-    let t = document.getElementById('total');
+const cards = document.querySelectorAll('.item-card');
 
-    let qnt = 1;      
-    let price = 500;  
 
-    p.addEventListener('click', function(){
-        qnt++;
-        q.textContent = qnt; 
-        t.textContent = price * qnt; 
-    });
+cards.forEach(function(card) {
 
-    m.addEventListener('click', function(){
-        if(qnt > 1){             
-            qnt--;                
-            q.textContent = qnt;  
-            t.textContent = price * qnt; 
-        }
-    });
-}
+
+    let m = card.querySelector('.minus');
+    let p = card.querySelector('.plus');
+    let q = card.querySelector('.qty');
+    let t = card.querySelector('.total');
+
+
+    if (m && p) {
+        let qnt = 1;
+        let price = 500;
+
+        p.addEventListener('click', function() {
+            qnt++;
+            q.textContent = qnt;
+            t.textContent = price * qnt;
+        });
+
+        m.addEventListener('click', function() {
+            if (qnt > 0) {
+                qnt--;
+                q.textContent = qnt;
+                t.textContent = price * qnt;
+            }
+        });
+    }
+});
 
 
 
